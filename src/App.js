@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import BigBox from "./components/BigBox";
+import BottomBox from "./components/BottomBox";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="w-screen h-auto p-0 m-0 flex flex-col justify-start items-center gap-y-4">
+      <header className="w-full bg-[#1b3252] text-left px-8 py-3 text-white text-xl">
+        Wellness Retreats
       </header>
+      <BigBox />
+      <BottomBox />
     </div>
   );
 }
