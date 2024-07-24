@@ -102,7 +102,7 @@ const BottomBox = () => {
             >
               <option value="">Filter by dates</option>
               <option value={time2022}>2022</option>
-              <option value={time2022}>2023</option>
+              <option value={time2023}>2023</option>
               <option value={time2024}>2024</option>
             </select>
           </div>
